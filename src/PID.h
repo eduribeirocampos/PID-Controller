@@ -40,11 +40,3 @@ class PID {
   double d_error;
 
   /**
-   * PID Coefficients
-   */ 
-  double Kp;
-  double Ki;
-  double Kd;
-};
-
-#endif  // PID_H
