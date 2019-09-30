@@ -24,12 +24,13 @@ double best_error = 99999999;
 double error_case1 = 9999999999; //// to check p += dp
 double error_case2 = 9999999999; //// to check p -= dp
 
-double tolerance = 0.005;
-int n = 100;
+double tolerance = 0.000005;
+int n = 120;
 
 char parameter;
 double initial_parameter;
 double initial_delta_parameter;
+
 
 int it = 1;
 
@@ -83,7 +84,10 @@ int main(int argc, char *argv[]) {
    
   pid.Init(init_Kp, init_Ki, init_Kd);
 
-  h.onMessage([&pid,&n ,&best_error ,&tolerance,&error_case1 , &error_case2, &it ,&parameter,initial_parameter,&initial_delta_parameter](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length,uWS::OpCode opCode) {
+ std::vector<double>p{init_Kp,init_Ki,init_Kd};
+ std::vector<double>dp{0.01,0.00005,0.1};
+
+  h.onMessage([&pid,&n ,&best_error ,&tolerance,&error_case1 , &error_case2, &it ,&parameter,initial_parameter,&initial_delta_parameter,&p,&dp](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length,uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
     // The 2 signifies a websocket event
@@ -93,9 +97,6 @@ int main(int argc, char *argv[]) {
     static double p_case1 = 0;
     static double p_case2 = 0;
     static double sum_dp = 9999999999999999;
-
-    std::vector<double>p{pid.Kp,pid.Ki,pid.Kd};
-    std::vector<double>dp{0.01,0.00005,0.1};
 
     if (length && length > 2 && data[0] == '4' && data[1] == '2') {
       auto s = hasData(string(data).substr(0, length));
