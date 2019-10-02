@@ -24,7 +24,7 @@ double best_error = 9999;
 double error_case1 = 9999; //// to check p += dp
 double error_case2 = 9999; //// to check p -= dp
 
-double tolerance = 0.10;
+double tolerance = 0.05;
 int n = 1000;
 
 char parameter;
@@ -67,14 +67,13 @@ int main(int argc, char *argv[]) {
   
   double init_Kp , init_Ki , init_Kd;
 
-  // result from twiddle  - Final_Kp = 0.201  Final_Ki = 0.0010901  Final_Kd = 6.29701
-
+  // result from twiddle  - Final_Kp = 0.2199  Final_Ki = 0.00051  Final_Kd = 2.95846
 
   if(argc != 4)
   {
-    init_Kp = 0.201;
-    init_Ki = 0.0010901;
-    init_Kd = 6.29701;
+    init_Kp = 0.2199;
+    init_Ki = 0.00051;
+    init_Kd = 2.95846;
   }
   else
   {
