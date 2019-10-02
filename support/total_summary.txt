@@ -1,280 +1,165 @@
 ********************************************************************
 ITERATION: 1
 	For Kp = 0.2; Delta_Kp = 0.01
-		case1-> Kp = 0.21; error = 20.0313
-		case2-> Kp = 0.19; error = 20.0398
+		case1-> Kp = 0.21; error = 20.0359
+		case2-> Kp = 0.19; error = 20.0328
 -----------------------------------------------------------
-Partial Kp = 0.21  Partial delta Kp = 0.011  Best error = 20.0313
+Partial Kp = 0.19  Partial delta Kp = 0.011  Best error = 20.0328
 -----------------------------------------------------------
-	For Ki = 0.0003; Delta_Ki = 0.0001
-		case1-> Ki = 0.0004; error = 0.0315386
-		case2-> Ki = 0.0002; error = 0.0435381
+	For Ki = 0.001; Delta_Ki = 0.0001
+		case1-> Ki = 0.0011; error = 0.0213983
+		case2-> Ki = 0.0009; error = 0.0247221
 -----------------------------------------------------------
-Partial Ki = 0.0004  Partial delta Ki = 0.00011  Best error = 0.0315386
+Partial Ki = 0.0011  Partial delta Ki = 0.00011  Best error = 0.0213983
 -----------------------------------------------------------
-	For Kd = 3; Delta_Kd = 0.1
-		case1-> Kd = 3.1; error = 0.0304469
-		case2-> Kd = 2.9; error = 0.0303195
+	For Kd = 6; Delta_Kd = 0.1
+		case1-> Kd = 6.1; error = 0.0206721
+		case2-> Kd = 5.9; error = 0.0251339
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.11  Best error = 0.0303195
+Partial Kd = 6.1  Partial delta Kd = 0.11  Best error = 0.0206721
 -----------------------------------------------------------
-summarizing iteration 1    Partial Best error = 0.0303195 for: 
-partial KP 0.21    Partial Ki = 0.0004    Partial Kd = 2.9
-the sum of delta is: 0.12111 and the tolerance is: 0.05
+summarizing iteration 1    Partial Best error = 0.0206721 for: 
+partial KP 0.19    Partial Ki = 0.0011    Partial Kd = 6.1
+the sum of delta is: 0.12111 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 2
-	For Kp = 0.21; Delta_Kp = 0.011
-		case1-> Kp = 0.221; error = 0.0305715
-		case2-> Kp = 0.199; error = 0.0330553
+	For Kp = 0.19; Delta_Kp = 0.011
+		case1-> Kp = 0.201; error = 0.0185696
+		case2-> Kp = 0.179; error = 0.0247209
 -----------------------------------------------------------
-Partial Kp = 0.21  Partial delta Kp = 0.0099  Best error = 0.0303195
+Partial Kp = 0.201  Partial delta Kp = 0.0121  Best error = 0.0185696
 -----------------------------------------------------------
-	For Ki = 0.0004; Delta_Ki = 0.00011
-		case1-> Ki = 0.00051; error = 0.0275641
-		case2-> Ki = 0.00029; error = 0.0387085
+	For Ki = 0.0011; Delta_Ki = 0.00011
+		case1-> Ki = 0.00121; error = 0.0238381
+		case2-> Ki = 0.00099; error = 0.0223933
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 0.000121  Best error = 0.0275641
+Partial Ki = 0.0011  Partial delta Ki = 9.9e-05  Best error = 0.0185696
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.11
-		case1-> Kd = 3.01; error = 0.030339
-		case2-> Kd = 2.79; error = 0.0313127
+	For Kd = 6.1; Delta_Kd = 0.11
+		case1-> Kd = 6.21; error = 0.0221108
+		case2-> Kd = 5.99; error = 0.023214
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.099  Best error = 0.0275641
+Partial Kd = 6.1  Partial delta Kd = 0.099  Best error = 0.0185696
 -----------------------------------------------------------
-summarizing iteration 2    Partial Best error = 0.0275641 for: 
-partial KP 0.21    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.109021 and the tolerance is: 0.05
+summarizing iteration 2    Partial Best error = 0.0185696 for: 
+partial KP 0.201    Partial Ki = 0.0011    Partial Kd = 6.1
+the sum of delta is: 0.111199 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 3
-	For Kp = 0.21; Delta_Kp = 0.0099
-		case1-> Kp = 0.2199; error = 0.0242345
-		case2-> Kp = 0.2001; error = 0.0278427
+	For Kp = 0.201; Delta_Kp = 0.0121
+		case1-> Kp = 0.2131; error = 0.0197304
+		case2-> Kp = 0.1889; error = 0.021151
 -----------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.01089  Best error = 0.0242345
+Partial Kp = 0.201  Partial delta Kp = 0.01089  Best error = 0.0185696
 -----------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 0.000121
-		case1-> Ki = 0.000631; error = 0.0264705
-		case2-> Ki = 0.000389; error = 0.0332274
+	For Ki = 0.0011; Delta_Ki = 9.9e-05
+		case1-> Ki = 0.001199; error = 0.0184739
+		case2-> Ki = 0.001001; error = 0.0239844
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 0.0001089  Best error = 0.0242345
+Partial Ki = 0.001199  Partial delta Ki = 0.0001089  Best error = 0.0184739
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.099
-		case1-> Kd = 2.999; error = 0.0265378
-		case2-> Kd = 2.801; error = 0.028839
+	For Kd = 6.1; Delta_Kd = 0.099
+		case1-> Kd = 6.199; error = 0.0182104
+		case2-> Kd = 6.001; error = 0.0222402
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.0891  Best error = 0.0242345
+Partial Kd = 6.199  Partial delta Kd = 0.1089  Best error = 0.0182104
 -----------------------------------------------------------
-summarizing iteration 3    Partial Best error = 0.0242345 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.100099 and the tolerance is: 0.05
+summarizing iteration 3    Partial Best error = 0.0182104 for: 
+partial KP 0.201    Partial Ki = 0.001199    Partial Kd = 6.199
+the sum of delta is: 0.119899 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 4
-	For Kp = 0.2199; Delta_Kp = 0.01089
-		case1-> Kp = 0.23079; error = 0.0276166
-		case2-> Kp = 0.20901; error = 0.0273922
+	For Kp = 0.201; Delta_Kp = 0.01089
+		case1-> Kp = 0.21189; error = 0.0196742
+		case2-> Kp = 0.19011; error = 0.0226148
 -----------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.009801  Best error = 0.0242345
+Partial Kp = 0.201  Partial delta Kp = 0.009801  Best error = 0.0182104
 -----------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 0.0001089
-		case1-> Ki = 0.0006189; error = 0.0278852
-		case2-> Ki = 0.0004011; error = 0.0304601
+	For Ki = 0.001199; Delta_Ki = 0.0001089
+		case1-> Ki = 0.0013079; error = 0.0275732
+		case2-> Ki = 0.0010901; error = 0.0170312
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 9.801e-05  Best error = 0.0242345
+Partial Ki = 0.0010901  Partial delta Ki = 0.00011979  Best error = 0.0170312
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.0891
-		case1-> Kd = 2.9891; error = 0.0287791
-		case2-> Kd = 2.8109; error = 0.0285135
+	For Kd = 6.199; Delta_Kd = 0.1089
+		case1-> Kd = 6.3079; error = 0.0185612
+		case2-> Kd = 6.0901; error = 0.0235998
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.08019  Best error = 0.0242345
+Partial Kd = 6.199  Partial delta Kd = 0.09801  Best error = 0.0170312
 -----------------------------------------------------------
-summarizing iteration 4    Partial Best error = 0.0242345 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.090089 and the tolerance is: 0.05
+summarizing iteration 4    Partial Best error = 0.0170312 for: 
+partial KP 0.201    Partial Ki = 0.0010901    Partial Kd = 6.199
+the sum of delta is: 0.107931 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 5
-	For Kp = 0.2199; Delta_Kp = 0.009801
-		case1-> Kp = 0.229701; error = 0.0281876
-		case2-> Kp = 0.210099; error = 0.0295687
+	For Kp = 0.201; Delta_Kp = 0.009801
+		case1-> Kp = 0.210801; error = 0.0193558
+		case2-> Kp = 0.191199; error = 0.0200017
 -----------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.0088209  Best error = 0.0242345
+Partial Kp = 0.201  Partial delta Kp = 0.0088209  Best error = 0.0170312
 -----------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 9.801e-05
-		case1-> Ki = 0.00060801; error = 0.0255791
-		case2-> Ki = 0.00041199; error = 0.0279899
+	For Ki = 0.0010901; Delta_Ki = 0.00011979
+		case1-> Ki = 0.00120989; error = 0.0201704
+		case2-> Ki = 0.00097031; error = 0.0213818
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 8.8209e-05  Best error = 0.0242345
+Partial Ki = 0.0010901  Partial delta Ki = 0.000107811  Best error = 0.0170312
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.08019
-		case1-> Kd = 2.98019; error = 0.0285377
-		case2-> Kd = 2.81981; error = 0.0283438
+	For Kd = 6.199; Delta_Kd = 0.09801
+		case1-> Kd = 6.29701; error = 0.0161764
+		case2-> Kd = 6.10099; error = 0.0216001
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.072171  Best error = 0.0242345
+Partial Kd = 6.29701  Partial delta Kd = 0.107811  Best error = 0.0161764
 -----------------------------------------------------------
-summarizing iteration 5    Partial Best error = 0.0242345 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.0810801 and the tolerance is: 0.05
+summarizing iteration 5    Partial Best error = 0.0161764 for: 
+partial KP 0.201    Partial Ki = 0.0010901    Partial Kd = 6.29701
+the sum of delta is: 0.11674 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 6
-	For Kp = 0.2199; Delta_Kp = 0.0088209
-		case1-> Kp = 0.228721; error = 0.0281517
-		case2-> Kp = 0.211079; error = 0.0290582
+	For Kp = 0.201; Delta_Kp = 0.0088209
+		case1-> Kp = 0.209821; error = 0.0212769
+		case2-> Kp = 0.192179; error = 0.0264187
 -----------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00793881  Best error = 0.0242345
+Partial Kp = 0.201  Partial delta Kp = 0.00793881  Best error = 0.0161764
 -----------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 8.8209e-05
-		case1-> Ki = 0.000598209; error = 0.0262657
-		case2-> Ki = 0.000421791; error = 0.028436
+	For Ki = 0.0010901; Delta_Ki = 0.000107811
+		case1-> Ki = 0.00119791; error = 0.0197601
+		case2-> Ki = 0.000982289; error = 0.0203128
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 7.93881e-05  Best error = 0.0242345
+Partial Ki = 0.0010901  Partial delta Ki = 9.70299e-05  Best error = 0.0161764
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.072171
-		case1-> Kd = 2.97217; error = 0.0247273
-		case2-> Kd = 2.82783; error = 0.0292033
+	For Kd = 6.29701; Delta_Kd = 0.107811
+		case1-> Kd = 6.40482; error = 0.02308
+		case2-> Kd = 6.1892; error = 0.0199494
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.0649539  Best error = 0.0242345
+Partial Kd = 6.29701  Partial delta Kd = 0.0970299  Best error = 0.0161764
 -----------------------------------------------------------
-summarizing iteration 6    Partial Best error = 0.0242345 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.0729721 and the tolerance is: 0.05
+summarizing iteration 6    Partial Best error = 0.0161764 for: 
+partial KP 0.201    Partial Ki = 0.0010901    Partial Kd = 6.29701
+the sum of delta is: 0.105066 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 7
-	For Kp = 0.2199; Delta_Kp = 0.00793881
-		case1-> Kp = 0.227839; error = 0.0294349
-		case2-> Kp = 0.211961; error = 0.0266027
+	For Kp = 0.201; Delta_Kp = 0.00793881
+		case1-> Kp = 0.208939; error = 0.0207857
+		case2-> Kp = 0.193061; error = 0.0211042
 -----------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00714493  Best error = 0.0242345
+Partial Kp = 0.201  Partial delta Kp = 0.00714493  Best error = 0.0161764
 -----------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 7.93881e-05
-		case1-> Ki = 0.000589388; error = 0.0277038
-		case2-> Ki = 0.000430612; error = 0.0309877
+	For Ki = 0.0010901; Delta_Ki = 9.70299e-05
+		case1-> Ki = 0.00118713; error = 0.0192211
+		case2-> Ki = 0.00099307; error = 0.0204376
 -----------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 7.14493e-05  Best error = 0.0242345
+Partial Ki = 0.0010901  Partial delta Ki = 8.73269e-05  Best error = 0.0161764
 -----------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.0649539
-		case1-> Kd = 2.96495; error = 0.0274957
-		case2-> Kd = 2.83505; error = 0.028879
+	For Kd = 6.29701; Delta_Kd = 0.0970299
+		case1-> Kd = 6.39404; error = 0.0199142
+		case2-> Kd = 6.19998; error = 0.0223644
 -----------------------------------------------------------
-Partial Kd = 2.9  Partial delta Kd = 0.0584585  Best error = 0.0242345
+Partial Kd = 6.29701  Partial delta Kd = 0.0873269  Best error = 0.0161764
 -----------------------------------------------------------
-summarizing iteration 7    Partial Best error = 0.0242345 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.9
-the sum of delta is: 0.0656749 and the tolerance is: 0.05
+summarizing iteration 7    Partial Best error = 0.0161764 for: 
+partial KP 0.201    Partial Ki = 0.0010901    Partial Kd = 6.29701
+the sum of delta is: 0.0945592 and the tolerance is: 0.1
 ********************************************************************
 ITERATION: 8
-	For Kp = 0.2199; Delta_Kp = 0.00714493
-		case1-> Kp = 0.227045; error = 0.0294926
-		case2-> Kp = 0.212755; error = 0.0273977
------------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00643044  Best error = 0.0242345
------------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 7.14493e-05
-		case1-> Ki = 0.000581449; error = 0.0243697
-		case2-> Ki = 0.000438551; error = 0.0302413
------------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 6.43044e-05  Best error = 0.0242345
------------------------------------------------------------
-	For Kd = 2.9; Delta_Kd = 0.0584585
-		case1-> Kd = 2.95846; error = 0.0229231
-		case2-> Kd = 2.84154; error = 0.0297705
------------------------------------------------------------
-Partial Kd = 2.95846  Partial delta Kd = 0.0643044  Best error = 0.0229231
------------------------------------------------------------
-summarizing iteration 8    Partial Best error = 0.0229231 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.95846
-the sum of delta is: 0.0707991 and the tolerance is: 0.05
-********************************************************************
-ITERATION: 9
-	For Kp = 0.2199; Delta_Kp = 0.00643044
-		case1-> Kp = 0.22633; error = 0.0252656
-		case2-> Kp = 0.21347; error = 0.0277962
------------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00578739  Best error = 0.0229231
------------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 6.43044e-05
-		case1-> Ki = 0.000574304; error = 0.0271259
-		case2-> Ki = 0.000445696; error = 0.0274128
------------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 5.78739e-05  Best error = 0.0229231
------------------------------------------------------------
-	For Kd = 2.95846; Delta_Kd = 0.0643044
-		case1-> Kd = 3.02276; error = 0.0266078
-		case2-> Kd = 2.89415; error = 0.0268022
------------------------------------------------------------
-Partial Kd = 2.95846  Partial delta Kd = 0.0578739  Best error = 0.0229231
------------------------------------------------------------
-summarizing iteration 9    Partial Best error = 0.0229231 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.95846
-the sum of delta is: 0.0637192 and the tolerance is: 0.05
-********************************************************************
-ITERATION: 10
-	For Kp = 0.2199; Delta_Kp = 0.00578739
-		case1-> Kp = 0.225687; error = 0.025632
-		case2-> Kp = 0.214113; error = 0.0279232
------------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00520865  Best error = 0.0229231
------------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 5.78739e-05
-		case1-> Ki = 0.000567874; error = 0.0284256
-		case2-> Ki = 0.000452126; error = 0.0312766
------------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 5.20865e-05  Best error = 0.0229231
------------------------------------------------------------
-	For Kd = 2.95846; Delta_Kd = 0.0578739
-		case1-> Kd = 3.01633; error = 0.0268184
-		case2-> Kd = 2.90058; error = 0.0245844
------------------------------------------------------------
-Partial Kd = 2.95846  Partial delta Kd = 0.0520865  Best error = 0.0229231
------------------------------------------------------------
-summarizing iteration 10    Partial Best error = 0.0229231 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.95846
-the sum of delta is: 0.0573473 and the tolerance is: 0.05
-********************************************************************
-ITERATION: 11
-	For Kp = 0.2199; Delta_Kp = 0.00520865
-		case1-> Kp = 0.225109; error = 0.0309019
-		case2-> Kp = 0.214691; error = 0.0256127
------------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00468779  Best error = 0.0229231
------------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 5.20865e-05
-		case1-> Ki = 0.000562087; error = 0.0286828
-		case2-> Ki = 0.000457913; error = 0.028917
------------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 4.68779e-05  Best error = 0.0229231
------------------------------------------------------------
-	For Kd = 2.95846; Delta_Kd = 0.0520865
-		case1-> Kd = 3.01055; error = 0.0280149
-		case2-> Kd = 2.90637; error = 0.0279995
------------------------------------------------------------
-Partial Kd = 2.95846  Partial delta Kd = 0.0468779  Best error = 0.0229231
------------------------------------------------------------
-summarizing iteration 11    Partial Best error = 0.0229231 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.95846
-the sum of delta is: 0.0516125 and the tolerance is: 0.05
-********************************************************************
-ITERATION: 12
-	For Kp = 0.2199; Delta_Kp = 0.00468779
-		case1-> Kp = 0.224588; error = 0.0260229
-		case2-> Kp = 0.215212; error = 0.027765
------------------------------------------------------------
-Partial Kp = 0.2199  Partial delta Kp = 0.00421901  Best error = 0.0229231
------------------------------------------------------------
-	For Ki = 0.00051; Delta_Ki = 4.68779e-05
-		case1-> Ki = 0.000556878; error = 0.0282023
-		case2-> Ki = 0.000463122; error = 0.0292315
------------------------------------------------------------
-Partial Ki = 0.00051  Partial delta Ki = 4.21901e-05  Best error = 0.0229231
------------------------------------------------------------
-	For Kd = 2.95846; Delta_Kd = 0.0468779
-		case1-> Kd = 3.00534; error = 0.0266047
-		case2-> Kd = 2.91158; error = 0.0241555
------------------------------------------------------------
-Partial Kd = 2.95846  Partial delta Kd = 0.0421901  Best error = 0.0229231
------------------------------------------------------------
-summarizing iteration 12    Partial Best error = 0.0229231 for: 
-partial KP 0.2199    Partial Ki = 0.00051    Partial Kd = 2.95846
-the sum of delta is: 0.0464513 and the tolerance is: 0.05
-********************************************************************
-ITERATION: 13
 *********************************************************************
-Final_Kp = 0.2199  Final_Ki = 0.00051  Final_Kd = 2.95846
+Final_Kp = 0.201  Final_Ki = 0.0010901  Final_Kd = 6.29701
