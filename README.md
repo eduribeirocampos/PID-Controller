@@ -265,7 +265,7 @@ To compile the code without the twiddle function, it is necessary execute the ba
 3. Run it: `./pid`.
 
 
-The next picture is a link to show de video with the official Lap.
+The next picture is a link to show the video with the official Lap.
 
 
 [![alt text][image15]](https://youtu.be/acjbPkAqUtk)
